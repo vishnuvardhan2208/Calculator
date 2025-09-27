@@ -3,6 +3,7 @@
     border: 0;
     box-sizing: border-box;
 }
+
 body{
     background-image: radial-gradient(red,orange);
     height: 100vh;
@@ -10,44 +11,53 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .vis{
     width: 250px;
     background-color: white;
     padding: 2rem;
     box-shadow: 0 0 1px blue;
     text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
+
 #display{
     width: 100%;
     text-align: right;
     padding: 0.4rem;
     border: none;
     outline: none;
-    margin-bottom:0.5rem ;
+    margin-bottom:1rem ;
+    font-size: 1.4rem;
 }
+
 .var{
     display: grid;
     grid-template-columns: repeat(4,40px);
     grid-template-rows: repeat(5,40px);
     gap: 0.5rem;
-    cursor: pointer;
 }
+
 button{
     border: none;
     padding: o.5rem;
-    border-radius: 0.5rem;
+    border-radius: 50%;
     background-color: rgb(143, 140, 137);
+    width: 100%;
+    cursor: pointer;
 }
+
 .btn1{
     grid-area: 5/1/6/5;
     color: white;
     background-color: red;
 }
+
 .btn2{
     background-color: orange;
     color: white;
 }
+
 .btn3{
     background-color: green;
     color: white;
